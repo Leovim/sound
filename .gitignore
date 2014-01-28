@@ -1,2 +1,5 @@
 # vim cache file
 *.swp
+
+# PyCharm default folder
+.idea
