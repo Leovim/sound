@@ -1,0 +1,12 @@
+.center {
+    height: 50px;
+    width: 100px;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 20px;
+    color: #999;
+}
