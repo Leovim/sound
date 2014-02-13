@@ -11,9 +11,8 @@ settings = {
 
 class IndexHandler(tornado.web.RequestHandler):
     def get(self):
-        items = ["Leo", "Tom"]
-        self.render("index.html", title="Sound Like", name=items[0])
-
+        items = ["Leo_c_t", "Tom"]
+        self.render("index.html", title="Sound Like Hot", name=items[0])
 
 # route
 application = tornado.web.Application([
@@ -22,5 +21,5 @@ application = tornado.web.Application([
 )
 
 if __name__ == "__main__":
-    application.listen(8888)
+    application.listen(8001)
     tornado.ioloop.IOLoop.instance().start()
